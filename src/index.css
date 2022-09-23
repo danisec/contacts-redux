@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans bg-blue-100/10;
+    }
+
+    .layout {
+        @apply px-4 sx:px-4 sm:px-8 lg:px-16 xl:px-20;
+    }
+}
